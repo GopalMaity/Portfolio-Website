@@ -4,12 +4,12 @@ import Loader from 'react-loaders';
 import LogoTitle from '../../assets/images/logo-g.png';
 
 import AnimatedLetters from '../AnimatedLetters'
-import Photo from './Photo';
+//import Photo from './Photo';
 import './index.scss';
 
 const Home = () => {
     const [letterClass, setLetterClass] = useState('text-animate') 
-    const nameArray = ['o','p','a','l']
+    const nameArray = ['o','p','a','l',',']
     const jobArray = [
         'w',
         'e',
@@ -54,10 +54,10 @@ const Home = () => {
                 strArray={jobArray}
                 idx={22} />
                 </h1>
-                <h2>Frontend developer / JavaScript Beginner</h2>
+                <h2>Front End developer / JavaScript Beginner</h2>
                 <Link to ="/contact" className='flat-button'>CONTACT ME</Link>
             </div>
-            <Photo />
+            
         </div>
         <Loader type="pacman" />
         </>
