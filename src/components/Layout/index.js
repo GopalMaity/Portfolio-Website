@@ -4,9 +4,9 @@ import './index.scss';
 
 const Layout = () => {
     return (
-         <dev className="App">
+         <div className="App">
            <Sidebar/> 
-          <dev className="page">
+          <div className="page">
             <span className='tags top-tags'>&lt;body&gt;</span>
 
             <Outlet/>
@@ -15,8 +15,8 @@ const Layout = () => {
                 <br/>
                 <span className='bottom-tag-html'>&lt;/html&gt;</span>
                 </span>  
-          </dev>
-        </dev>
+          </div>
+        </div>
     )
 }
 

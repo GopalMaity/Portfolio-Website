@@ -39,7 +39,7 @@ const Home = () => {
     
         <div className="container home-page">
             <div className="text-zone">
-                <hi>
+                <h1>
                     <span className={letterClass}>H</span>
                     <span className={`${letterClass} _12`}>i,</span>
                 <br /> 
@@ -53,7 +53,7 @@ const Home = () => {
                 <AnimatedLetters letterClass={letterClass}
                 strArray={jobArray}
                 idx={22} />
-                </hi>
+                </h1>
                 <h2>Frontend developer / JavaScript Beginner</h2>
                 <Link to ="/contact" className='flat-button'>CONTACT ME</Link>
             </div>
