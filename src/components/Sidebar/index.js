@@ -3,7 +3,7 @@ import './index.scss'
 import LogoS from '../../assets/images/logo-g.png'
 import LogoSubtitle from '../../assets/images/logo_sub3.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
+import { faGithub, faLinkedin, faRProject } from '@fortawesome/free-brands-svg-icons'
 import { faEnvelope, faHome, faUser, faBars, faClose } from '@fortawesome/free-solid-svg-icons'
 import { useState } from 'react'
 
@@ -24,6 +24,10 @@ return(
             <NavLink exact= "true" activeclassname="active" className="about-link" to="/about"
             onClick={() => setShowNav(false)}>
                 <FontAwesomeIcon icon = {faUser} color= "#4d4d4e"/>
+            </NavLink>
+            <NavLink exact= "true" activeclassname="active" className="project-link" to="/project"
+            onClick={() => setShowNav(false)}>
+                <FontAwesomeIcon icon = {faRProject} color= "#4d4d4e"/>
             </NavLink>
             <NavLink exact= "true" activeclassname="active" className="contact-link" to="/contact"
             onClick={() => setShowNav(false)}>
