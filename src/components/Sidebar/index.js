@@ -51,7 +51,11 @@ return(
                 href="https://www.linkedin.com/in/gopal-maity-448855189/"
 
                 >
-                    <FontAwesomeIcon icon= {faLinkedin} color="#4d4d4e" />
+                    <FontAwesomeIcon 
+                    icon= {faLinkedin} 
+                    color="#4d4d4e" 
+                    className='anchor-icon'
+                    />
                 </a>
             </li>
             <li>
@@ -60,7 +64,11 @@ return(
                 rel="noreferrer"
                 href="https://github.com/GopalMaity"
                 >
-                    <FontAwesomeIcon icon= {faGithub} color="#4d4d4e" />
+                    <FontAwesomeIcon 
+                    icon= {faGithub} 
+                    color="#4d4d4e" 
+                    className='anchor-icon'
+                    />
                 </a>
             </li>
          </ul>

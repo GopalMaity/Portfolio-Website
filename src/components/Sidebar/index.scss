@@ -38,6 +38,7 @@
             height: 100px;
             position: relative;
             text-decoration: none;
+
             i {
                 transition: all 0.3s ease-out;
             }
@@ -106,19 +107,25 @@
                 display: block;
                 font-size: 20px;
                 line-height: 20px;
-
-                &:hover svg {
-                    color: #ffd700;
-                }
+                color: #4d4d4e;
             }
+
+                &:hover {
+                    .anchor-icon{
+                        color: #ffd700;
+                    }
+                    
+                }
+            
         }
     }
 }
 
-.hamburger-icon
+.hamburger-icon,
 .close-icon {
     display: none;
   }
+
 
 
 @media screen and (max-width: 1200px) {
